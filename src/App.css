@@ -1,0 +1,40 @@
+.homecontainer{
+  background-color: rgb(187, 202, 236);
+}
+
+.heading h1{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  padding-top: 1.5rem;
+}
+
+.subhead{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+.mainButtons{
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  margin-left: 5rem;
+}
+
+.customButton {
+  margin-right: 10px; 
+}
+
+.link {
+  text-decoration: none; 
+  color: inherit; /* Inherit color from parent element (Button) */
+}
+
+.link:hover {
+  text-decoration: none; /* Remove underline on hover */
+  color: inherit; /* Inherit color from parent element (Button) */
+}
+
+
+

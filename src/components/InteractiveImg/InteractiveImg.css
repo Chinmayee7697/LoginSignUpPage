@@ -1,0 +1,21 @@
+.container {
+    width: 10vw;
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 50vw;
+    height: 70vh;
+    margin-top: 30rem;
+    margin-left: 60rem;
+    object-fit: cover;
+}
+
+.image-container {
+    flex: 2;
+}
